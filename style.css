@@ -91,3 +91,42 @@
 .img{
     width: 100%;
 }
+
+/* latest section */
+
+
+.latest-section{
+ background-image: url("./Flower Asset/Rectangle\ 9.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 300px;
+ width: 75%;
+ margin: auto;
+ margin-top:80px ;
+ text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.latest{
+    /* /* display: flex; */
+    align-items: center;
+    
+
+}
+.latest-input{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+
+}
+.input{
+    border: none;
+    width: 450px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 20px;
+
+}
