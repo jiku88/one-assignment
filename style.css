@@ -1,4 +1,48 @@
-.Hello{
-    margin: 0px;
-    color: brown;
+*{
+    margin: 0;
+}
+.first-btn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: none;
+
+}
+.header{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+    background-color:#b5425b;
+
+}
+.Header-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 100vh; */
+    /* border: 2px solid black; */
+    /* margin-top: 500px; */
+    padding-top: 225px;
+}
+.Header-section-pic{
+    /* width: 500px; */
+    /* border: 2px solid red; */
+    
+
+    
+    
+}
+.header-img{
+    height: 520px;
+    width: 99%;
+    /* padding-top: 50px; */
+
+}
+.discription{
+    margin: 20px 0;
+    color: #272727;
+}
+.header-title{
+    font-size: 50px;
 }
