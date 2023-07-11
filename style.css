@@ -71,56 +71,61 @@
 
 .discription {
     margin: 20px 0;
-    color: white;
+    color: black;
 }
-
 
 /* instra section */
 
 
-.Instra-secttion{
+.Instra-secttion {
     width: 75%;
-    margin: auto ;
-    text-align: center; 
-    margin-top: 80px;            
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
 }
-.instra-img{
+
+.instra-img {
     display: flex;
     gap: 10px;
 }
-.img{
+
+.img {
     width: 100%;
 }
 
 /* latest section */
 
 
-.latest-section{
- background-image: url("./Flower Asset/Rectangle\ 9.png");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- height: 300px;
- width: 75%;
- margin: auto;
- margin-top:80px ;
- text-align: center;
-display: flex;
-align-items: center;
-justify-content: center;
+.latest-section {
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 
 }
-.latest{
-     align-items: center;
-    
+
+.latest {
+    align-items: center;
+
 }
-.latest-input{
+
+.latest-input {
     align-items: center;
     display: flex;
     gap: 10px;
 
 }
-.input{
+
+.input {
     border: none;
     width: 450px;
     height: 45px;
@@ -129,17 +134,69 @@ justify-content: center;
 }
 
 /* footer section */
-.flower{
+.flower {
     color: #b5425b;
 }
-.flower-shop{
-  text-align: center;
-  background-color: rgb(87, 67, 67);
-  color: white;
-  padding: 60px 0;
-  margin-top: 80px;
-  
-}
-.color{
+
+.flower-shop {
+    text-align: center;
+    background-color: rgb(87, 67, 67);
     color: white;
+    padding: 60px 0;
+    margin-top: 80px;
+
+}
+
+.color {
+    color: white;
+}
+
+/* featue section */
+
+.feature {
+    text-align: center;
+    width: 75%;
+    margin: 80px auto 0;
+}
+
+.feature-img {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-img {
+    background-color: blue;
+    height: 450px;
+    width: 360px;
+    border-radius: 250px 250px 0 0;
+}
+
+.second-img {
+    background-color: chartreuse;
+    height: 450px;
+    width: 360px;
+    border-radius: 250px 250px 0 0;
+}
+
+.third-img {
+    background-color: darkorchid;
+    height: 450px;
+    width: 360px;
+    border-radius: 250px 250px 0 0;
+}
+
+.img-feature {
+    width: 280px;
+    height: 330px;
+margin-top: 120px;
+}
+.img-cap{
+margin-top: 20px;
+text-decoration: underline;
+}
+.extra{
+    margin-bottom: 40px;
 }
