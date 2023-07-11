@@ -12,36 +12,73 @@
     border-radius: 5px;
     padding: 15px 25px;
     border: none;
-
 }
-
 .header {
     height: 100vh;
     width: 100%;
-    background-color: red;
-
+    background-color: rgba(229, 84, 115,0.10);
 }
-
 .Header-section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 225px;
 }
-
 .header-img {
     height: 520px;
     width: 99%;
 }
-
 .discription {
     margin: 20px 0;
-    color: #272727;
+    color: rgba(39, 39, 39,0.60);
 }
-
 .header-title {
     font-size: 50px;
 }
+/* featue section */
+
+.feature {
+    text-align: center;
+    width: 75%;
+    margin: 80px auto 0;
+}
+.feature-img {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.first-img {
+    background-color: rgba(167, 33, 98,0.15);
+    height: 450px;
+    width: 360px;
+    border-radius: 250px 250px 0 0;
+}
+.second-img {
+    background-color: rgba(5, 151, 160,0.15);
+    height: 450px;
+    width: 360px;
+    border-radius: 250px 250px 0 0;
+}
+.third-img {
+    background-color: rgba(71, 125, 17,0.15);
+    height: 450px;
+    width: 360px;
+    border-radius: 250px 250px 0 0;
+}
+.img-feature {
+    width: 280px;
+    height: 330px;
+margin-top: 120px;
+}
+.img-cap{
+margin-top: 20px;
+text-decoration: underline;
+}
+.extra{
+    margin-bottom: 40px;
+}
+
 
 /* Hot deal sale up secction */
 
@@ -49,26 +86,21 @@
 .off {
     color: red;
 }
-
 .sale-up {
     text-align: center;
 }
-
 .sale-up-main {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    background-color: blue;
+    background-color:rgba(229, 84, 115,0.05);
     padding: 60px;
     gap: 100px;
-
 }
-
 .sale-up-img {
     width: 70%;
 }
-
 .discription {
     margin: 20px 0;
     color: black;
@@ -83,12 +115,10 @@
     text-align: center;
     margin-top: 80px;
 }
-
 .instra-img {
     display: flex;
     gap: 10px;
 }
-
 .img {
     width: 100%;
 }
@@ -110,21 +140,16 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-
 }
-
 .latest {
     align-items: center;
-
 }
-
 .latest-input {
     align-items: center;
     display: flex;
     gap: 10px;
 
 }
-
 .input {
     border: none;
     width: 450px;
@@ -137,66 +162,14 @@
 .flower {
     color: #b5425b;
 }
-
 .flower-shop {
     text-align: center;
-    background-color: rgb(87, 67, 67);
+    background-color: rgba(17, 16, 16,0.80);
     color: white;
     padding: 60px 0;
     margin-top: 80px;
-
 }
-
 .color {
     color: white;
 }
 
-/* featue section */
-
-.feature {
-    text-align: center;
-    width: 75%;
-    margin: 80px auto 0;
-}
-
-.feature-img {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.first-img {
-    background-color: blue;
-    height: 450px;
-    width: 360px;
-    border-radius: 250px 250px 0 0;
-}
-
-.second-img {
-    background-color: chartreuse;
-    height: 450px;
-    width: 360px;
-    border-radius: 250px 250px 0 0;
-}
-
-.third-img {
-    background-color: darkorchid;
-    height: 450px;
-    width: 360px;
-    border-radius: 250px 250px 0 0;
-}
-
-.img-feature {
-    width: 280px;
-    height: 330px;
-margin-top: 120px;
-}
-.img-cap{
-margin-top: 20px;
-text-decoration: underline;
-}
-.extra{
-    margin-bottom: 40px;
-}
